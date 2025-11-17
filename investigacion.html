@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra Tecnología - BioFlux</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="index.html" class="logo">BioFlux</a>
+            <nav class="main-nav" id="main-nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="tecnologia.html" >Tecnología</a></li>
+                    <li><a href="soluciones.html">Soluciones</a></li>
+                    <li><a href="investigacion.html" class="active">I+D+i</a></li>
+                    <li><a href="sobre-nosotros.html">Sobre BioFlux</a></li>
+                    <li><a href="casos-de-exito.html">Casos de Éxito</a></li>
+                    <li><a href="noticias.html">Noticias</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger-menu" id="hamburger-menu">&#9776;</button>
+        </div>
+    </header>
+
+<main>
+    <section style="background-color: var(--primary-blue); color: var(--white); padding: 40px 0;">
+        <div class="container text-center">
+            <h1 style="color: var(--white);">Investigación, Desarrollo e Innovación</h1>
+            <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto;">Somos una spin-off universitaria: la ciencia es nuestro motor.</p>
+        </div>
+    </section>
+
+    <section id="intro-idi">
+        <div class="container">
+            <h2 class="section-title">Nuestras Líneas de Investigación</h2>
+            <p style="text-align: center; max-width: 900px; margin: 0 auto 3rem auto;">BioFlux mantiene un área dedicada a la I+D+i en bioinorgánica y biotecnología ambiental para estar siempre en la frontera del conocimiento y ofrecer las soluciones más avanzadas.</p>
+
+            <div class="grid-3" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+                <div class="card">
+                    <i class="fas fa-microscope icon"></i>
+                    <h3>Microorganismos Extremófilos</h3>
+                    <p>Aislamiento y caracterización de nuevas cepas microbianas metalotolerantes y sus rutas redox para la biotransformación de metales.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-seedling icon" style="color: var(--secondary-green);"></i>
+                    <h3>Quelantes Verdes</h3>
+                    <p>Diseño y síntesis de nuevos quelantes biodegradables inspirados en la naturaleza (sideróforos) para la captura selectiva de metales.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-magnet icon"></i>
+                    <h3>Nanomateriales Inteligentes</h3>
+                    <p>Desarrollo de nanopartículas magnéticas funcionalizadas y materiales tipo MOFs y Bio-MOFs para la adsorción y recuperación de metales.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-satellite-dish icon"></i>
+                    <h3>Biosensores e IoT</h3>
+                    <p>Integración de nuestros biosensores (SensorFlux) con plataformas IoT para la monitorización remota y en tiempo real de la calidad del agua.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="colaboraciones">
+        <div class="container">
+            <h2 class="section-title">Colaboraciones y Proyectos</h2>
+            <p class="text-center">Colaboramos activamente con Universidades, Centros Tecnológicos y participamos en proyectos de investigación europeos (ej. H2020, Horizon Europe) para el desarrollo de nuevas tecnologías de aguas.</p>
+            
+            <h3 style="margin-top: 3rem;">Publicaciones Recientes (Ejemplos)</h3>
+            <ul>
+                <li>"Novel metal-tolerant bacterial consortium for the efficient bioreduction of Cr(VI) in tannery wastewater." - <i>Journal of Hazardous Materials</i></li>
+                <li>"Functionalized magnetic nanoparticles for selective removal and recovery of Mercury (Hg) from industrial effluents." - <i>Chemosphere</i></li>
+                <li>"Bio-inspired green chelators for Cadmium (Cd) remediation in agricultural soils." - <i>Environmental Science & Technology</i></li>
+            </ul>
+        </div>
+    </section>
+</main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo">BioFlux</a>
+                    <p>Soluciones bioinorgánicas para un agua libre de metales pesados.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="tecnologia.html">Tecnología</a></li>
+                        <li><a href="soluciones.html">Soluciones</a></li>
+                        <li><a href="investigacion.html">I+D+i</a></li>
+                        <li><a href="sobre-nosotros.html">Sobre BioFlux</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Parque Científico-Tecnológico</li>
+                        <li><i class="fas fa-phone"></i> +34 950 123 456</li>
+                        <li><i class="fas fa-envelope"></i> info@bioflux.tech</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 BioFlux S.L. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

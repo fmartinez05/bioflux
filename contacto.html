@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra Tecnología - BioFlux</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="index.html" class="logo">BioFlux</a>
+            <nav class="main-nav" id="main-nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="tecnologia.html">Tecnología</a></li>
+                    <li><a href="soluciones.html">Soluciones</a></li>
+                    <li><a href="investigacion.html">I+D+i</a></li>
+                    <li><a href="sobre-nosotros.html">Sobre BioFlux</a></li>
+                    <li><a href="casos-de-exito.html">Casos de Éxito</a></li>
+                    <li><a href="noticias.html">Noticias</a></li>
+                    <li><a href="contacto.html" class="active">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger-menu" id="hamburger-menu">&#9776;</button>
+        </div>
+    </header>
+
+<main>
+    <section style="background-color: var(--primary-blue); color: var(--white); padding: 40px 0;">
+        <div class="container text-center">
+            <h1 style="color: var(--white);">Contacto</h1>
+            <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto;">Cuéntanos tu problema de agua. Analizamos tu caso y te proponemos una solución BioFlux a medida.</p>
+        </div>
+    </section>
+
+    <section id="contacto-form">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-form">
+                    <h2>Envíanos tu consulta</h2>
+                    <form id="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name">Nombre Completo *</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-msg"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Empresa / Institución</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-msg"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="query-type">Tipo de consulta</label>
+                            <select id="query-type" name="query-type">
+                                <option value="analisis">Análisis de agua</option>
+                                <option value="piloto">Planta piloto</option>
+                                <option value="idi">Colaboración I+D+i</option>
+                                <option value="otros">Otros</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="error-msg"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    <p>Contacta directamente con nuestro equipo técnico o visita nuestras oficinas.</p>
+                    
+                    <p>
+                        <i class="fas fa-phone icon"></i> <strong>Teléfono:</strong><br>
+                        +34 950 123 456
+                    </p>
+                    <p>
+                        <i class="fas fa-envelope icon"></i> <strong>Email:</strong><br>
+                        info@bioflux.tech
+                    </p>
+                    <p>
+                        <i class="fas fa-map-marker-alt icon"></i> <strong>Oficinas:</strong><br>
+                        Edificio PITA, Av. de la Innovación, 15<br>
+                        Parque Científico-Tecnológico (PITA)<br>
+                        Almería, España
+                    </p>
+                    <img src="https://picsum.photos/seed/map/600/300" alt="Mapa de localización" style="border-radius: var(--border-radius); margin-top: 1rem; width: 100%;">
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo">BioFlux</a>
+                    <p>Soluciones bioinorgánicas para un agua libre de metales pesados.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="tecnologia.html">Tecnología</a></li>
+                        <li><a href="soluciones.html">Soluciones</a></li>
+                        <li><a href="investigacion.html">I+D+i</a></li>
+                        <li><a href="sobre-nosotros.html">Sobre BioFlux</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Parque Científico-Tecnológico</li>
+                        <li><i class="fas fa-phone"></i> +34 950 123 456</li>
+                        <li><i class="fas fa-envelope"></i> info@bioflux.tech</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 BioFlux S.L. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
